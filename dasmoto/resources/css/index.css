@@ -1,0 +1,54 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/* Set a base font and background for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Add some basic styling for headings */
+h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Add some spacing for paragraphs */
+p {
+    margin-bottom: 15px;
+}
+
+/* Style links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
