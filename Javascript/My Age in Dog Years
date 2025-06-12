@@ -1,0 +1,8 @@
+const myAge = 28  //My Age
+let earlyYears = 2  //First two years of dog's age
+earlyYears*= 10.5  //Age growth for dog in first 2 years of life
+var laterYears = myAge - 2  //years left after subtracting Early Years
+laterYears*= 4  //Dog Years for each of my later years
+var myAgeInDogYears = laterYears + earlyYears    //My age in dog years
+const myName = "Houston".toLowerCase()  //My Name
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)  //This should print the final sentence with both my name and age in both human and dog years
