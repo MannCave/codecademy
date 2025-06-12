@@ -1,10 +1,10 @@
 const kelvin = 0     //Provides the constant for kelvin for the temperature
 
-var celcius = kelvin - 273      //Provides the temperature in Celcius
+var celsius = kelvin - 273      //Provides the temperature in Celcius
 
-var fahrenheit = Math.floor(celcius * (9/5) + 32)    //Provides the temperature in Fahrenheit while rounding to the nearest whole number
-var newton = Math.floor(celcius * (33/100))
+var fahrenheit = Math.floor(celsius * (9/5) + 32)    //Provides the temperature in Fahrenheit while rounding to the nearest whole number
+var newton = Math.floor(celsius * (33/100))
 
 console.log("The temperature is " + fahrenheit + " degrees Fahrenheit.")
 
-console.log(newton)
+console.log(`The Temperature is ${newton} degrees Newton.`) //Provides the temperature in Newton
